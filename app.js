@@ -6,6 +6,10 @@ const upload = multer({ dest: 'public/uploads' });
 const port = 3000;
 const app = express();
 
+// ran npm install pug
+// adding the following code from the pug documentation
+const pug = require('pug');
+
 const publicPath = './public';
 const uploadsPath = publicPath + '/uploads/';
 
